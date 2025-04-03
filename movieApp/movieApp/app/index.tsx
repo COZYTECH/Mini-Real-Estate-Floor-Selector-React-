@@ -2,9 +2,9 @@ import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
+    <View className="flex-1 justify-center items-center"
     >
-      <Text>WELCOME</Text>
+      <Text className="te">WELCOME</Text>
     </View>
   );
 }
